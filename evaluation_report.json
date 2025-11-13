@@ -1,0 +1,224 @@
+{
+    "metrics": {
+        "0": {
+            "precision": 0.7352313167259786,
+            "recall": 1.0,
+            "f1-score": 0.8474159146841673,
+            "support": 1033.0
+        },
+        "1": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 372.0
+        },
+        "accuracy": 0.7352313167259786,
+        "macro avg": {
+            "precision": 0.3676156583629893,
+            "recall": 0.5,
+            "f1-score": 0.42370795734208366,
+            "support": 1405.0
+        },
+        "weighted avg": {
+            "precision": 0.5405650890946163,
+            "recall": 0.7352313167259786,
+            "f1-score": 0.6230467187677899,
+            "support": 1405.0
+        },
+        "auc": 0.8146046071053098
+    },
+    "feature_importance": [
+        {
+            "feature": "num__ContractMonths",
+            "importance": 0.5254814624786377
+        },
+        {
+            "feature": "cat__InternetService_Fiber optic",
+            "importance": 0.18613982200622559
+        },
+        {
+            "feature": "num__TotalCharges",
+            "importance": 0.12260019779205322
+        },
+        {
+            "feature": "num__tenure",
+            "importance": 0.10031808167695999
+        },
+        {
+            "feature": "num__MonthlyCharges",
+            "importance": 0.03762557730078697
+        },
+        {
+            "feature": "cat__PaymentMethod_Electronic check",
+            "importance": 0.01873154006898403
+        },
+        {
+            "feature": "num__AvgMonthlyCharge",
+            "importance": 0.005704578943550587
+        },
+        {
+            "feature": "cat__MonthlyChargesGroup_Medium",
+            "importance": 0.0033986575435847044
+        },
+        {
+            "feature": "cat__SeniorCitizen_0",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__Partner_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__Partner_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__Dependents_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__Dependents_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "num__NumServices",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__gender_Female",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__gender_Male",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__MultipleLines_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__PhoneService_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__PhoneService_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__MultipleLines_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__OnlineSecurity_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__OnlineSecurity_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__InternetService_DSL",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__InternetService_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__DeviceProtection_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__DeviceProtection_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__TechSupport_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__TechSupport_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__StreamingTV_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__StreamingTV_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__OnlineBackup_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__OnlineBackup_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__StreamingMovies_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__StreamingMovies_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__Contract_Two year",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__Contract_Month-to-month",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__PaperlessBilling_No",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__PaperlessBilling_Yes",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__PaymentMethod_Bank transfer (automatic)",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__Contract_One year",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__PaymentMethod_Credit card (automatic)",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__PaymentMethod_Mailed check",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__TenureGroup_Low",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__TenureGroup_High",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__TenureGroup_Medium",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__TenureGroup_missing",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__MonthlyChargesGroup_High",
+            "importance": 0.0
+        },
+        {
+            "feature": "cat__MonthlyChargesGroup_Low",
+            "importance": 0.0
+        }
+    ]
+}
